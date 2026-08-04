@@ -29,11 +29,19 @@ steganography-resources/
 
 ## 🛠️ Tools & Resources
 
-### Image Steganography
-*   [Tool Name](https://link-to-tool.com) - Brief description of what the tool does and what algorithms it uses.
+### Image Steganography & Steganalysis
+*   [Steghide](https://sourceforge.net) - A classic command-line tool used to hide data in BMP, WAV, and AU files using a passphrase.
+*   [Stegsolve](https://github.com) - A widely used Java-based GUI tool for analyzing image layers, bit planes, and detecting hidden data visually (essential for CTFs).
+*   [Aperi'Solve](https://aperisolve.com) - A powerful web-based platform that automates layer analysis, zsteg, steghide, and exiftool checks in one single upload.
+*   [zsteg](https://github.com) - A command-line tool written in Ruby specifically designed to detect hidden data in PNG and BMP files via LSB (Least Significant Bit) techniques.
 
-### Audio Steganography
-*   [Tool Name](https://link-to-tool.com) - Brief description of its capabilities.
+### Audio & Video Steganography
+*   [DeepSound](https://jjtc.com) - A user-friendly Windows GUI tool that hides encrypted data within audio files (like WAV or FLAC) without altering sound quality.
+*   [OpenStego](https://openstego.com) - An open-source Java tool that supports data hiding (using robust watermarking algorithms) inside images and audio carriers.
+
+### File Metadata & Carving
+*   [ExifTool](https://exiftool.org) - A command-line utility used to read, write, and modify metadata information (EXIF, IPTC, XMP) in almost any file type.
+*   [Binwalk](https://github.com) - A fast tool for searching, analyzing, and extracting hidden files, payloads, or embedded code embedded inside firmware images or standard files.
 
 ---
 
