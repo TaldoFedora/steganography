@@ -1,0 +1,42 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Media and Test Files
+# (Ignores heavy or modified media in the root/other folders)
+# ==========================================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.wav
+*.mp3
+*.mp4
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# Virtual Environments, Logs, and IDEs
+# ==========================================
+venv/
+env/
+__pycache__/
+*.log
+.vscode/
+.idea/
+
+# ==========================================
+# EXCEPTIONS (Allow media in the documentation folder)
+# ==========================================
+# Allows the assets folder and all its content for screenshots and README images
+!assets/
+!assets/**
