@@ -30,8 +30,8 @@ steganography-resources/
 ## 🛠️ Tools & Resources
 
 ### Image Steganography & Steganalysis
-*   [Steghide](https://sourceforge.net) - A classic command-line tool used to hide data in BMP, WAV, and AU files using a passphrase.
-*   [Stegsolve](https://github.com) - A widely used Java-based GUI tool for analyzing image layers, bit planes, and detecting hidden data visually (essential for CTFs).
+*   [Steghide](https://github.com/StegHigh/steghide) - A classic command-line tool used to hide data in BMP, WAV, and AU files using a passphrase.
+*   [Stegsolve](https://github.com/Giotino/stegsolve) - A widely used Java-based GUI tool for analyzing image layers, bit planes, and detecting hidden data visually (essential for CTFs).
 *   [Aperi'Solve](https://aperisolve.com) - A powerful web-based platform that automates layer analysis, zsteg, steghide, and exiftool checks in one single upload.
 *   [zsteg](https://github.com) - A command-line tool written in Ruby specifically designed to detect hidden data in PNG and BMP files via LSB (Least Significant Bit) techniques.
 
